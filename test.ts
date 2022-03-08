@@ -1,6 +1,7 @@
-import { MinHeap, MaxHeap } from './Heap';
+// import { MinHeap, MaxHeap } from './Heap/index';
+import { MinHeap } from './Heap';
 
-const heap = new MinHeap([]);
+const heap = new MinHeap();
 heap.insert(0);
 heap.insert(1);
 heap.insert(2);
